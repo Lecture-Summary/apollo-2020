@@ -80,3 +80,17 @@ loading은 true, false 값
 error는 error log
 
 data는 query문으로 받은 데이터를 가져온다.
+
+## React
+
+a href는 react app을 죽게 만드므로 react-router-dom의 Link를 사용한다
+
+```js
+import { Link } from "react-router-dom";
+
+export default ({ id }) => (
+  <div>
+    <Link to={`/${id}`}>{id}</Link>
+  </div>
+);
+```
