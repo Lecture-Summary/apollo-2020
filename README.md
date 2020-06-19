@@ -102,3 +102,11 @@ Cache를 가지고 있다.
 React apollo가 데이터를 얻으면 그것을 저장해준다.
 
 그래서 같은 페이지를 가면 loading을 하지않고 cache를 준다. 즉 request를 다시 보내지 않는다.
+
+## Apollo Developer tools
+
+https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm/related
+
+구글 개발자 도구
+
+cache mutation query 등을 확인 가능
